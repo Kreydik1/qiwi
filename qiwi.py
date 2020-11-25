@@ -129,9 +129,6 @@ elif a == "3":
     print(os.listdir())
     try:
                       
-    except:
-        print(Fore.RED + "Download php, or reboot your device | Установите php или перезагрузите устройство")
-        print(Fore.WHITE + "apt install php")
 else:
 	print(Fore.RED + " Выбран неверный параметр | No found such parametr")
 
