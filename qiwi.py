@@ -129,12 +129,6 @@ elif a == "3":
     print(os.listdir())
     try:
                       
-        print(Fore.MAGENTA + "   Open second session and write command: ")
-        print(" ")
-        print(Fore.WHITE + "  ssh -R 80:localhost:8080 qiwi-api-token-form-id@ssh.localhost.run")
-        print(" ")
-        print(Fore.MAGENTA + "   Откройте вторую сессию и напишите команду вверху")
-        os.system("php -S localhost:8080")
     except:
         print(Fore.RED + "Download php, or reboot your device | Установите php или перезагрузите устройство")
         print(Fore.WHITE + "apt install php")
