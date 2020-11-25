@@ -129,7 +129,6 @@ elif a == "3":
     print(os.listdir())
     try:
               
-	print(Fore.RED + " Выбран неверный параметр | No found such parametr")
 
 
         
