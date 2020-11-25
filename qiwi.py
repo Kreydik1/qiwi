@@ -123,14 +123,8 @@ elif a == "3":
     print("-------------------------------------------------")
     print(" ")
                                            
-    print(" ")
-    print(Fore.GREEN + "  Starting Server... ")
-    os.chdir("fish")
-    print(os.listdir())
-    try:
-                      
-else:
-	print(Fore.RED + " Выбран неверный параметр | No found such parametr")
 
+	
 
         
+	
